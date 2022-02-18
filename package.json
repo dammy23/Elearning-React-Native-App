@@ -1,0 +1,59 @@
+{
+  "name": "elearning",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.15",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/slider": "4.1.12",
+    "@react-navigation/compat": "~5.1.25",
+    "@react-navigation/drawer": "5.12.4",
+    "@react-navigation/native": "5.9.3",
+    "@react-navigation/stack": "5.14.3",
+    "axios": "^0.24.0",
+    "expo": "~44.0.0",
+    "expo-app-loading": "^1.0.1",
+    "expo-asset": "~8.4.5",
+    "expo-av": "~10.2.0",
+    "expo-font": "~10.0.4",
+    "expo-linear-gradient": "~11.0.0",
+    "expo-screen-orientation": "~4.1.1",
+    "expo-sqlite": "^10.1.0",
+    "expo-status-bar": "~1.2.0",
+    "expo-video-player": "^2.0.4",
+    "galio-framework": "~0.7.1",
+    "moment": "^2.29.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-modal-dropdown": "git+https://github.com/siemiatj/react-native-modal-dropdown.git",
+    "react-native-reanimated": "~2.3.1",
+    "react-native-root-toast": "^3.3.0",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "~3.10.1",
+    "react-native-storage": "^1.0.1",
+    "react-native-web": "0.17.1",
+    "react-native-webview": "11.15.0",
+    "react-native-youtube-iframe": "^2.2.2",
+    "realm": "^10.12.0",
+    "expo-secure-store": "~11.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "babel-preset-expo": "8.3.0",
+    "cross-env": "~7.0.0",
+    "expo-cli": "~5.0.3",
+    "jest-expo": "^44.0.0"
+  },
+  "private": true
+}
